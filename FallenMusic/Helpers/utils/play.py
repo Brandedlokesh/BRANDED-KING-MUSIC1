@@ -5,7 +5,7 @@ from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
 from FallenMusic import app
 
 import config
-from FallenMusic.utils.formatters import time_to_seconds
+from Fallen Music.utils.formatters import time_to_seconds
 
 
 ## After Edits with Timer Bar

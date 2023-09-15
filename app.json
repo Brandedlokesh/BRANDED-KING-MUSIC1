@@ -32,7 +32,7 @@
         "required": true
       },
       "SESSION": {
-        "description": "A pyrogram v2 string session from @StringFatherBot",
+        "description": "A pyrogram v2 string session from @BRANDEDSTRINGSESSION_BOT",
         "value": "",
         "required": true
       },

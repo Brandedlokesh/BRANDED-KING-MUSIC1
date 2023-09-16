@@ -40,10 +40,10 @@ close_key = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", url="https://t.me/Venom_bolti_public",
+                text="🥀 ᴏᴡɴᴇʀ 🥀", url="https://t.me/BRABDEDKING82",
             ),
             InlineKeyboardButton(
-                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url="https://t.me/Venom_Chatting",
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url="https://t.me/BRANDRD_BOT",
             )
         ],
         [

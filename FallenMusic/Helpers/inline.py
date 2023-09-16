@@ -29,8 +29,6 @@ close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
 )
 
-
- buttons = [
         [
              InlineKeyboardMarkup(
                 text=_["P_B_1"],

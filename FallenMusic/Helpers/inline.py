@@ -29,8 +29,8 @@ close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
 )
 
-  def track_markup(_, videoid, user_id, channel, fplay):
-    buttons = [
+
+ buttons = [
         [
              InlineKeyboardMarkup(
                 text=_["P_B_1"],

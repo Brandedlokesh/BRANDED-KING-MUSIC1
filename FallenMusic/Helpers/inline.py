@@ -28,12 +28,6 @@ from FallenMusic import BOT_USERNAME
 close_key = InlineKeyboardMarkup(
     [[InlineKeyboardButton(text="✯ ᴄʟᴏsᴇ ✯", callback_data="close")]]
 )
-
-             InlineKeyboardMarkup(
-                text=_["P_B_2"],
-                callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
-            )
-        ],
         [
             InlineKeyboardButton(
                 text="🥀 ᴏᴡɴᴇʀ 🥀", url="https://t.me/BRABDEDKING82",

@@ -105,7 +105,7 @@ def stream_markup(_, chat_id):
 
 def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     
-        [
+        
             InlineKeyboardButton(
                 text=_["P_B_1"],
                 callback_data=f"AyushPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
@@ -114,31 +114,31 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 text=_["P_B_2"],
                 callback_data=f"AyushPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
-        ],
-        [
+        
+       
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
-        ],
+        
     
     
 
 
 def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     
-        [
+        
             InlineKeyboardButton(
                 text=_["P_B_3"],
                 callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
-        ],
-        [
+        
+        
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
             ),
-        ],
+        
     
      
 
@@ -146,7 +146,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
 def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     query = f"{query[:20]}"
      
-        [
+        
             InlineKeyboardButton(
                 text=_["P_B_1"],
                 callback_data=f"MusicStream {videoid}|{user_id}|a|{channel}|{fplay}",
@@ -155,8 +155,8 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 text=_["P_B_2"],
                 callback_data=f"MusicStream {videoid}|{user_id}|v|{channel}|{fplay}",
             ),
-        ],
-        [
+        
+        
             InlineKeyboardButton(
                 text="◁",
                 callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
@@ -169,7 +169,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 text="▷",
                 callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
-        ],
-    ]
+        
+    
     
     
